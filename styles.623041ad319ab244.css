@@ -6,12 +6,12 @@
         width: 100%;
         color: var(--primary-color);
         min-height: 0px;
-        border: none!important;
+        border: none;
         border-radius: 0;
         align-items: flex-start;
         display: flex;
         justify-content: center;
-        padding: 0 4rem 1.5rem!important
+        padding: 0 4rem 1.5rem
     }
 
     .p-confirm-dialog .p-dialog-header {
@@ -19,7 +19,7 @@
         background-color: #fff;
         color: var(--downriver-50);
         align-items: flex-start;
-        padding-bottom: 0!important
+        padding-bottom: 0
     }
 
     .p-confirm-dialog .p-dialog-header .p-dialog-title {
@@ -34,9 +34,9 @@
 
     .p-confirm-dialog .p-dialog-footer {
         border-radius: 0 0 12px 12px;
-        padding: 2rem!important;
+        padding: 2rem;
         display: flex;
-        justify-content: center!important
+        justify-content: center
     }
 
     .p-confirm-dialog .p-confirm-dialog-icon {
@@ -52,27 +52,27 @@
     }
 
     .p-confirm-dialog .p-button-text-icon-left .p-button-text {
-        padding: 0!important
+        padding: 0
     }
 
     .p-confirm-dialog .p-confirm-dialog-accept {
         margin: 0 .5em 0 0;
-        background: var(--primary-color)!important;
-        border-radius: 12px!important;
-        color: #fff!important;
-        outline: none!important;
-        border: none!important;
-        box-shadow: none!important
+        background: var(--primary-color);
+        border-radius: 12px;
+        color: #fff;
+        outline: none;
+        border: none;
+        box-shadow: none
     }
 
     .p-confirm-dialog .p-confirm-dialog-reject {
-        outline: none!important;
-        border: none!important;
-        box-shadow: none!important;
-        font-weight: 500!important;
-        font-size: 16px!important;
-        color: var(--primary-color)!important;
-        background-color: transparent!important
+        outline: none;
+        border: none;
+        box-shadow: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--primary-color);
+        background-color: transparent
     }
 
     .p-dialog {
@@ -98,21 +98,21 @@
     }
 
     .p-dialog .p-dialog-content {
-        color: #0c3058!important;
-        padding: 0 4rem 1.5rem!important;
+        color: #0c3058;
+        padding: 0 4rem 1.5rem;
         border: none;
-        margin: 0!important
+        margin: 0
     }
 
     @media (max-width: 1270px) {
         .p-dialog .p-dialog-content {
-            padding:0 1.5rem!important
+            padding:0 1.5rem
         }
     }
 
     .p-dialog .p-dialog-footer {
         border-radius: 0 0 12px 12px;
-        border: none!important
+        border: none
     }
 
     .p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
@@ -127,38 +127,38 @@
     }
 
     .p-inline-message.p-inline-message-info {
-        background: #e4f0ff!important;
-        color: var(--primary-color)!important
+        background: #e4f0ff;
+        color: var(--primary-color)
     }
 
     .p-toast .p-toast-message.p-toast-message-info,.p-message.p-message-info {
-        background: #e4f0ff!important;
-        border: solid var(--primary-color)!important;
-        color: var(--primary-color)!important;
-        border-width: 0 6px 0 0!important
+        background: #e4f0ff;
+        border: solid var(--primary-color);
+        color: var(--primary-color);
+        border-width: 0 6px 0 0
     }
 
     .p-toast .p-toast-message.p-toast-message-info .p-toast-message-icon,.p-inline-message.p-inline-message-info .p-inline-message-icon,.p-toast .p-toast-message.p-toast-message-info .p-toast-icon-close,.p-message .p-message-close {
-        color: var(--primary-color)!important
+        color: var(--primary-color)
     }
 
     .p-inline-message.p-inline-message-error {
-        color: #d9342b!important
+        color: #d9342b
     }
 
     .p-toast .p-toast-message-error,.p-message.p-message-error {
-        border: solid #d9342b!important;
-        color: #d9342b!important;
-        border-width: 0 6px 0 0!important
+        border: solid #d9342b;
+        color: #d9342b;
+        border-width: 0 6px 0 0
     }
 
     .p-inline-message.p-inline-message-error .p-inline-message-icon,.p-toast .p-toast-message.p-toast-message-error .p-toast-message-icon,.p-toast .p-toast-message.p-toast-message-error .p-toast-icon-close {
-        color: #d9342b!important
+        color: #d9342b
     }
 
     .p-message.p-message-close {
-        margin-left: 0!important;
-        margin-right: auto!important
+        margin-left: 0;
+        margin-right: auto
     }
 
     .p-tabview .p-tabview-nav li .p-tabview-nav-link {
@@ -494,7 +494,7 @@
 }
 
 @layer bootstrap,primeng;:root {
-    --primary-color: #0068F5FF !important
+    --primary-color: #0068F5FF 
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button-group .fc-button:last-child {
@@ -507,11 +507,11 @@
 
 .fc .fc-daygrid-day.fc-day-today {
     background-color: #f7faff;
-    border: 2px solid #0068F5!important
+    border: 2px solid #0068F5
 }
 
 .fc-scroller {
-    overflow: hidden!important
+    overflow: hidden
 }
 
 .mng-form-sub-title {
@@ -519,7 +519,7 @@
 }
 
 #annualDistribution .mng-form-sub-title,#productionElectricity .mng-form-sub-title {
-    margin-bottom: 10px!important
+    margin-bottom: 10px
 }
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
@@ -541,12 +541,12 @@
 
 #myTabMenu .p-tabmenu-nav-container {
     position: relative;
-    margin-bottom: 0!important
+    margin-bottom: 0
 }
 
 .ql-editor .ql-font-monospace {
-    font-size: 14px!important;
-    font-family: Arial!important
+    font-size: 14px;
+    font-family: Arial
 }
 
 .ql-editor {
@@ -569,7 +569,7 @@
 }
 
 .myDivider .p-divider {
-    margin: 0!important
+    margin: 0
 }
 
 .p-breadcrumb ul li.p-breadcrumb-chevron {
@@ -577,11 +577,11 @@
 }
 
 .custom-overlay .p-overlaypanel .p-overlaypanel-content {
-    padding-left: 0!important
+    padding-left: 0
 }
 
 .custom-overlay .p-overlaypanel:after,.custom-overlay .p-overlaypanel:before {
-    content: none!important
+    content: none
 }
 
 .p-multiselect-item.p-disabled {
@@ -597,25 +597,25 @@
 }
 
 #sitesRepeat>div>div>div>fieldset {
-    border-radius: 14px!important;
+    border-radius: 14px;
     direction: rtl;
-    background: var(--lara-panel-panel-content-bg, #FFF)!important
+    background: var(--lara-panel-panel-content-bg, #FFF)
 }
 
 #sitesRepeat>div>div>div>fieldset>div:first-child {
-    display: none!important
+    display: none
 }
 
 .errorMSG>.valid-error {
-    position: relative!important
+    position: relative
 }
 
 .date-pass {
     padding: 10.5px 17.5px;
-    background: #ffebea!important;
+    background: #ffebea;
     font-weight: 400;
     border-radius: 1rem;
-    color: #d9342b!important;
+    color: #d9342b;
     font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -627,24 +627,24 @@
 }
 
 #myMap .bubbleWrapper .layerWrapper {
-    border-radius: 14px!important
+    border-radius: 14px
 }
 
 #myMap .bubbleWrapper {
-    border-radius: 14px!important;
-    box-shadow: none!important
+    border-radius: 14px;
+    box-shadow: none
 }
 
 #myMap .bubbleWrapper animate-wrapper fromBottom ng-scope {
-    border-radius: 14px!important
+    border-radius: 14px
 }
 
 #bubblesScroll,.layerWrapper,.title layer-header fixed on-top ng-scope {
-    border-radius: 14px!important
+    border-radius: 14px
 }
 
 .main-section {
-    padding: 0!important
+    padding: 0
 }
 
 .prime-color {
@@ -667,9 +667,9 @@
 }
 
 .btn_dashboard>button {
-    width: 105px!important;
-    height: 105px!important;
-    border-radius: 28px!important
+    width: 105px;
+    height: 105px;
+    border-radius: 28px
 }
 
 .p-dock .p-dock-action {
@@ -678,34 +678,34 @@
 }
 
 p-badge>span {
-    display: none!important
+    display: none
 }
 
 .p-dock {
-    position: relative!important;
-    width: -moz-fit-content!important;
-    width: fit-content!important
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content
 }
 
 .p-dock .p-dock-list {
-    padding: 0!important
+    padding: 0
 }
 
 .p-dock-item-prev,.p-dock-item-next {
-    transform: scale(1.1)!important;
-    margin: 0 .4rem!important
+    transform: scale(1.1);
+    margin: 0 .4rem
 }
 
 .p-dock-item-current {
-    transform: scale(1.2)!important;
-    margin: 0 .6rem!important
+    transform: scale(1.2);
+    margin: 0 .6rem
 }
 
 .p-dock-item-second-prev,.p-dock-item-second-next {
-    transform: scale(1)!important;
-    margin: 0 .2rem!important
+    transform: scale(1);
+    margin: 0 .2rem
 }
 
 #projectDetails mng-side-menu {
-    padding: 0 18px!important
+    padding: 0 18px
 }
