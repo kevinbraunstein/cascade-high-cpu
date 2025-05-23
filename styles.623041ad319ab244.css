@@ -6,4 +6,6 @@
   }
 }
 
-@layout bootstrap,primeng;
+@layout primeng;:root {
+  color: red;
+}
