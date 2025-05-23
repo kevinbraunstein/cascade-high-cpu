@@ -1,9 +1,55 @@
 @layer primeng {
-    p {
-        color: blue;
+    .p-confirm-dialog .p-dialog-content {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        color: var(--primary-color);
+        min-height: 0px;
+        border: none;
+        border-radius: 0;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        padding: 0 4rem 1.5rem
+    }
+
+    .p-confirm-dialog .p-confirm-dialog-accept {
+        margin: 0 .5em 0 0;
+        background: var(--primary-color);
+        border-radius: 12px;
+        color: #fff;
+        outline: none;
+        border: none;
+        box-shadow: none
+    }
+
+    .p-confirm-dialog .p-confirm-dialog-reject {
+        outline: none;
+        border: none;
+        box-shadow: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--primary-color);
+        background-color: transparent
+    }
+
+    .p-inline-message.p-inline-message-info {
+        background: #e4f0ff;
+        color: var(--primary-color)
+    }
+
+    .p-toast .p-toast-message.p-toast-message-info,.p-message.p-message-info {
+        background: #e4f0ff;
+        border: solid var(--primary-color);
+        color: var(--primary-color);
+        border-width: 0 6px 0 0
+    }
+
+    .p-toast .p-toast-message.p-toast-message-info .p-toast-message-icon,.p-inline-message.p-inline-message-info .p-inline-message-icon,.p-toast .p-toast-message.p-toast-message-info .p-toast-icon-close,.p-message .p-message-close {
+        color: var(--primary-color)
     }
 }
 
 @layer bootstrap,primeng;:root {
-    color: red;
+    --primary-color: #0068F5FF 
 }
