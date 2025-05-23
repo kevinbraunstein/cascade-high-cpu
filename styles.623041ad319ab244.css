@@ -1,11 +1,13 @@
 @layer primeng {
-    @media (max-height: 1356px) {
-        .mng-default-menu-layout {
-            padding:56px 42px 42px
-        }
+  @media (max-height: 1356px) {
+    .test-layout {
+      padding: 50px;
     }
+  }
 }
 
-@layer bootstrap,primeng;:root {
-    --primary-color: #0068F5FF 
+@layer bootstrap, primeng;
+
+:root {
+  color: red;
 }
