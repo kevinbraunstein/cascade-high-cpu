@@ -289,7 +289,3 @@
         }
     }
 }
-
-@layer bootstrap,primeng;:root {
-    --primary-color: #0068F5FF 
-}
