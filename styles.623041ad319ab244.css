@@ -1,9 +1,9 @@
 @layer primeng {
     p {
-        color: blue
+        color: blue;
     }
 }
 
 @layer bootstrap,primeng;:root {
-    color: red
+    color: red;
 }
