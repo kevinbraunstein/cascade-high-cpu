@@ -6,6 +6,6 @@
   }
 }
 
-@layout bootstrap,primeng;:root {
+@layer primeng {
   color: red;
 }
