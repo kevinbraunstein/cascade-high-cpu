@@ -1,4 +1,3 @@
-
 @layer primeng {
     .p-confirm-dialog .p-dialog-content {
         font-size: 16px;
@@ -293,51 +292,4 @@
 
 @layer bootstrap,primeng;:root {
     --primary-color: #0068F5FF 
-}
-
-.fc.fc-theme-standard .fc-toolbar .fc-button-group .fc-button:last-child {
-    border-radius: 4px 0 0 4px/4px 0px 0px 4px
-}
-
-.fc.fc-theme-standard .fc-toolbar .fc-button-group .fc-button:first-child {
-    border-radius: 0 4px 4px 0/0px 4px 4px 0px
-}
-
-.fc .fc-daygrid-day.fc-day-today {
-    background-color: #f7faff;
-    border: 2px solid #0068F5
-}
-
-.fc-scroller {
-    overflow: hidden
-}
-
-.mng-form-sub-title {
-    margin-top: 30px
-}
-
-#annualDistribution .mng-form-sub-title,#productionElectricity .mng-form-sub-title {
-    margin-bottom: 10px
-}
-
-.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
-    border: none;
-    padding: .75rem 2rem;
-    height: 57px
-}
-
-.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
-    border-bottom: 4px solid var(--primary-color);
-    background: transparent;
-    color: var(--primary-color)
-}
-
-.p-tabmenu-nav-container {
-    position: relative;
-    margin-bottom: 15px
-}
-
-#myTabMenu .p-tabmenu-nav-container {
-    position: relative;
-    margin-bottom: 0
 }
